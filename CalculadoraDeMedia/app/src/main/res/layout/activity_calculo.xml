@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jesus.calculadorademedia.CalculoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota 1:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="118dp" />
+    <EditText
+        android:id="@+id/editNota"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota 2:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="118dp" />
+    <EditText
+        android:id="@+id/notaEdit"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:onClick="situacaoView"/>
+    <TextView
+        android:id="@+id/situacao"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+</LinearLayout>
